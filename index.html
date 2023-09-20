@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RGB Salon</title>
+	<style>
+		body{
+			background-color:black;
+		}
+
+		button{
+			background-color:RGBA(187, 143, 111, 1);
+			border: none;
+			border-radius: 8px;
+			width: 150px;
+			height: 30px;
+			color: white;
+		}
+
+		a{
+			text-decoration:none;
+			color: white;
+			font-size: 30px;
+		}
+		.hand-touch{
+			color: white;
+			font-size: 20px;
+		}
+		.btn{
+			width: 350px;
+			height: 50px;
+			border-radius: 7px;
+			margin-top: 30px;
+		}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		header{
+			display: flex;
+			justify-content: space-around;
+			
+		}
+		.btn-list{
+			display: flex;
+			gap: 24px;
+		}
+		.btn-list li {
+			padding: 30px 0;
+		}
+  	.logo{
+       padding: 30px 0;
+ 		}
+
+		@media screen and (min-width:1199px){
+			.container{
+				max-width: 850px;
+				margin: 0 auto;
+			}
+			.btn{
+			width: 850px;
+			height: 50px;
+			border-radius: 7px;
+			margin-top: 30px;
+		}
+		}
+		.container {
+			width: 850px;
+			margin: 0 auto;
+		}
+		h1{
+			color: white;
+			text-align: center;
+			margin-top: 40px;
+		}
+
+		p{
+			margin-top: 30px;
+			color: white;
+			text-align: center;
+		}
+		img{
+			display: block;
+			margin: 0 auto;
+			height: auto;
+			max-width: 100%;
+		}
+		section{
+			padding: 100px 0;
+		}
+
+		.container{
+			max-width: 350px;
+			margin: 0 auto;
+			padding: 30px 0;
+		}
+		
+		</style>
+</head>
+<body>
+	<header>
+	<div class="container">
+			<a class="logo" href="./index.html">RGB</a>
+			<ul class="btn-list">
+				<li><button>Зареєструватися</button></li>
+				<li><button>Увійти</button></li>
+			</ul>
+		</div>
+		</header>
+ <main>
+	<section>
+		<div class="container">
+			<img src="./first.png" alt="">
+		<h1>Вікторія Ткачук</h1>
+		<p>
+			Засновниця платформи для навчання RGB group <br> 
+			Амбасадор техніки "Hand touch"
+		</p>
+		<button class="btn">
+			<a class="hand-touch" href="./second.html">Техніка "Hand touch"</a></button>
+		</div>
+	</section>
+ </main>
+</body>
+</html>
