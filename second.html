@@ -53,10 +53,7 @@
 		.logo{
 			padding: 30px 0;
 		}
-		.container {
-			width: 850px;
-			margin: 0 auto;
-		}
+		
 		h1{
 			color: white;
 			margin-top: 40px;
@@ -71,25 +68,35 @@
 			display: block;
 			margin: 0 auto;
 			height: auto;
-			max-width: 100%;
 			margin-top: 30px;
 		}
-		section{
-			padding: 100px 80px;
-		}
+		
 		
 		p{
 			max-width: 420px;
 		}
+
+		
+		.container{
+			max-width: 350px;
+			margin: 0 auto;
+			padding: 30px 0;
+		}
 		
 		
 		@media screen and (min-width: 1199px) {
+				
+		.header-wrap{
+			display: flex;
+			gap: 150px;
+		}
 			
 			p{
-				max-width: 512px;
+				width: 512px;
 			}
 			.content-wrap{
 				display: flex;
+				gap: 20px;
 			}   
 			
 			.container{
@@ -99,25 +106,22 @@
 			
 		}
 		
-		.container{
-			max-width: 350px;
-			margin: 0 auto;
-			padding: 30px 0;
-		}
 		
 		
 	</style>
 </head>
 <body>
 	<header>
-		<div class="container">
-			<a class="logo" href="./index.html">RGB</a>
+	<div class="container">
+		 <div class="header-wrap">
+				<a class="logo" href="./index.html">RGB</a>
 			<ul class="btn-list">
 				<li><button>Зареєструватися</button></li>
 				<li><button>Увійти</button></li>
 			</ul>
+		 </div>
 		</div>
-	</header>
+		</header>
 	<main>
 		<section>
 			<div class="container">
